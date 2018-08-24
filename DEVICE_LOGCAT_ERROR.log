@@ -1,0 +1,26 @@
+08-23 16:40:11.433 7711-7742/? I/firebase: Firebase App initializing app com.onesignal.example (default 1).
+08-23 16:40:11.438 7711-7742/? I/Unity: Firebase App initializing app com.onesignal.example (default 1).
+     
+    (Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+08-23 16:40:11.439 7711-7742/? I/firebase: Firebase Analytics API Initializing
+08-23 16:40:11.440 7711-7742/? I/Unity: Firebase Analytics API Initializing
+     
+    (Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+08-23 16:40:11.440 7711-7742/? I/firebase: analytics API Initialized
+08-23 16:40:11.443 7711-7742/? E/firebase: Java class com/google/firebase/messaging/cpp/RegistrationIntentService not found.  Please verify the AAR which contains the com/google/firebase/messaging/cpp/RegistrationIntentService class is included in your app.
+08-23 16:40:11.443 7711-7742/? E/Unity: Java class com/google/firebase/messaging/cpp/RegistrationIntentService not found.  Please verify the AAR which contains the com/google/firebase/messaging/cpp/RegistrationIntentService class is included in your app.
+     
+    (Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+08-23 16:40:11.443 7711-7742/? E/firebase: clazz
+08-23 16:40:11.443 7711-7742/? E/firebase: Java class com/google/firebase/messaging/cpp/RegistrationIntentService not found.  Please verify the AAR which contains the com/google/firebase/messaging/cpp/RegistrationIntentService class is included in your app.
+08-23 16:40:11.444 7711-7742/? E/firebase: Failed to initialize messaging
+08-23 16:40:11.445 7711-7742/? E/firebase: Messaging already shut down.
+08-23 16:40:11.461 7711-7742/? E/Unity: InitializationException:  Firebase modules failed to initialize: messaging (missing dependency)
+      at Firebase.FirebaseApp.CreateAndTrack (Firebase.CreateDelegate createDelegate, Firebase.FirebaseApp existingProxy) [0x00000] in <filename unknown>:0 
+      at Firebase.FirebaseApp.Create () [0x00000] in <filename unknown>:0 
+      at Firebase.FirebaseApp.get_DefaultInstance () [0x00000] in <filename unknown>:0 
+      at Firebase.Analytics.FirebaseAnalytics..cctor () [0x00000] in <filename unknown>:0 
+    Rethrow as TypeInitializationException: An exception was thrown by the type initializer for Firebase.Analytics.FirebaseAnalytics
+      at FirebaseLogEventTest.Start () [0x00000] in <filename unknown>:0 
+     
+    (Filename:  Line: -1)
